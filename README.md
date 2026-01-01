@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Properties Professor - Real Estate Website
 
 A full-stack real estate website built with React and Node.js/Express featuring user authentication, property listings with demo data, and a professional UI.
@@ -175,3 +176,6 @@ Created as a full-stack real estate website demonstration with modern web techno
 ---
 
 **Happy Property Hunting! 🏡**
+=======
+# properties-professor
+>>>>>>> 5d589433202eb4c96d9d062b1c45c63c6b9b05e9
