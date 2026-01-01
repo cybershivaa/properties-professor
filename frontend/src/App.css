@@ -1,0 +1,53 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.under-construction {
+  background: linear-gradient(135deg, #ffd89b 0%, #19547b 100%);
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.construction-content {
+  max-width: 800px;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.95);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+.construction-content h2 {
+  color: #2c3e50;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.construction-content p {
+  color: #555;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width: 768px) {
+  .construction-content h2 {
+    font-size: 1.5rem;
+  }
+  
+  .construction-content p {
+    font-size: 1rem;
+  }
+}

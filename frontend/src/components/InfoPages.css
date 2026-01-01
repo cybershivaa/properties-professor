@@ -1,0 +1,231 @@
+.info-page {
+  min-height: 80vh;
+  padding: 4rem 0;
+  background-color: #f5f5f5;
+}
+
+.info-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 3rem;
+}
+
+.info-container h1 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  border-bottom: 3px solid var(--secondary-color);
+  padding-bottom: 1rem;
+}
+
+.info-section {
+  margin: 2rem 0;
+}
+
+.info-section h2 {
+  color: var(--primary-color);
+  font-size: 1.8rem;
+  margin: 1.5rem 0 1rem;
+}
+
+.info-section h3 {
+  color: #555;
+  font-size: 1.3rem;
+  margin: 1rem 0 0.5rem;
+}
+
+.info-section p {
+  line-height: 1.8;
+  color: #666;
+  margin-bottom: 1rem;
+}
+
+.info-section ul {
+  margin-left: 2rem;
+  line-height: 2;
+  color: #666;
+}
+
+.info-section li {
+  margin-bottom: 0.5rem;
+}
+
+.info-section a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.info-section a:hover {
+  text-decoration: underline;
+}
+
+.features-list {
+  list-style: none;
+  margin-left: 0;
+}
+
+.features-list li {
+  padding: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+/* Services Page */
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.service-card {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  border-left: 4px solid var(--secondary-color);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-card h3 {
+  color: var(--primary-color);
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.service-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Blog Page */
+.blog-intro {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.blog-card {
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 2rem;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card h3 {
+  color: var(--primary-color);
+  margin-bottom: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.blog-date {
+  color: #999;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.blog-card p {
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.read-more {
+  background-color: var(--secondary-color);
+  color: white;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+
+.read-more:hover {
+  background-color: #2980b9;
+}
+
+/* Careers Page */
+.careers-intro {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.job-listing {
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  border-left: 4px solid var(--secondary-color);
+}
+
+.job-listing h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.job-listing p {
+  margin: 0.5rem 0;
+  color: #666;
+}
+
+.apply-btn {
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 0.7rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  margin-top: 1rem;
+  transition: background-color 0.3s;
+}
+
+.apply-btn:hover {
+  background-color: #c0392b;
+}
+
+/* Policy Pages */
+.last-updated {
+  color: #999;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+  .info-container {
+    padding: 2rem 1.5rem;
+  }
+
+  .info-container h1 {
+    font-size: 2rem;
+  }
+
+  .services-grid,
+  .blog-grid {
+    grid-template-columns: 1fr;
+  }
+}
